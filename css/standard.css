@@ -1,0 +1,93 @@
+#main{
+  width:100%;
+  margin:0 auto;
+}
+
+body{
+   font-family:Arial;
+   margin: 0;
+   padding: 0;
+}
+
+#content{
+  clear:both;
+  background:#e8dbdb;
+  padding:1em;
+  border-radius: 3px 3px 0 0;
+}
+
+#flash{
+  margin-top:-0.5em;
+  color:#ddd;
+  background:#b00;
+  padding: 0.5em;
+  border-radius: 3px;
+  border-top: 2px solid #000;
+  border-bottom: 2px solid #000;
+}
+.nav{
+  background: #646060;
+  height: 4em;
+}
+nav ul{
+  padding:0;
+}
+
+nav li{
+  list-style-type: none;
+  float:left;
+  margin: 1.2em 0;
+}
+
+nav a{
+  font-size: 1em;
+  text-decoration: none;
+  margin: 1em 2em;
+  background: #e83a3a;
+  padding: 1em;
+  border-radius: 12px;
+  color: #fbfbfa;
+}
+
+input{
+  display:block;
+  margin-bottom:0.3em;
+  width: 50%;
+  padding: 12px;
+  border: 1px solid #4a4848;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+input[type=submit]{
+  margin-top: 1em;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  background: #e83a3a;
+  color: #fbf6f6;
+}
+
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+/* Table for user's post*/
+.user-post-table, td{
+	border: 1px solid black;
+	border-collapse: collapse;
+	padding: 3px;
+}
+/*for 404 error page */
+.img{
+  background: url(//www.google.com/images/errors/robot.png) 80% 5px no-repeat;
+  padding-right: 205px;
+  height: 20em;
+  color: #2d0606;
+  padding: 15px;
+}
+.para{
+  color: #757070;
+}
